@@ -74,63 +74,67 @@ export default function GithubRepoCard({ repo, theme }) {
             className="modal"
             overlayClassName="overlay"
           >
-            <div className="modal-screenshots">
-              <div className="modal-screenshots-mobile">
-                {repo.screenshotsMobileLink &&
-                  repo.screenshotsMobileLink.map((screenshot) => (
-                    <img
-                      src={require(`../../assets/images/${screenshot}`)}
-                      alt={screenshot}
-                    />
-                  ))}
-              </div>
-              <div className="modal-screenshots-desktop">
-                {repo.screenshotsDesktopLink &&
-                  repo.screenshotsDesktopLink.map((screenshot) => (
-                    <img
-                      src={require(`../../assets/images/${screenshot}`)}
-                      alt={screenshot}
-                    />
-                  ))}
-              </div>
-            </div>
-            <div className="modal-rightPanel">
-              <i
-                className="fa-solid fa-xmark modal-close"
-                onClick={closeModal}
-              ></i>
-              <h1 className="modal-title">{repo.name}</h1>
-              <p className="modal-p">{repo.descriptionInModal}</p>
-              <ProjectLanguages
-                className="repo-languages"
-                logos={repo.languages}
-              />
-              <div className="modal-links">
-                {repo.url && (
-                  <Button
-                    text="Visiter le site"
-                    newTab={true}
-                    href={repo.url}
-                    theme={theme}
-                  />
-                )}
-                {repo.github && (
-                  <Button
-                    text="Voir le code"
-                    newTab={true}
-                    href={repo.github}
-                    theme={theme}
-                  />
-                )}
-              </div>
-              <h2 className="modal-h2">Compétences clés</h2>
-              {repo.keySkills && (
-                <div className="modal-skills">
-                  {repo.keySkills.map((skillSentence, i) => {
-                    return <p key={repo.name + i}>{skillSentence}</p>;
-                  })}
+            <i
+              className="fa-solid fa-xmark modal-close"
+              onClick={closeModal}
+            ></i>
+            <div className="modal-content">
+              <div className="modal-screenshots">
+                <div className="modal-screenshots-mobile">
+                  {repo.screenshotsMobileLink &&
+                    repo.screenshotsMobileLink.map((screenshot) => (
+                      <img
+                        key={screenshot}
+                        src={require(`../../assets/images/${screenshot}`)}
+                        alt={screenshot}
+                      />
+                    ))}
                 </div>
-              )}
+                <div className="modal-screenshots-desktop">
+                  {repo.screenshotsDesktopLink &&
+                    repo.screenshotsDesktopLink.map((screenshot) => (
+                      <img
+                        key={screenshot}
+                        src={require(`../../assets/images/${screenshot}`)}
+                        alt={screenshot}
+                      />
+                    ))}
+                </div>
+              </div>
+              <div className="modal-rightPanel">
+                <h1 className="modal-title">{repo.name}</h1>
+                <p className="modal-p">{repo.descriptionInModal}</p>
+                <ProjectLanguages
+                  className="repo-languages"
+                  logos={repo.languages}
+                />
+                <div className="modal-links">
+                  {repo.url && (
+                    <Button
+                      text="Visiter le site"
+                      newTab={true}
+                      href={repo.url}
+                      theme={theme}
+                    />
+                  )}
+                  {repo.github && (
+                    <Button
+                      text="Voir le code"
+                      newTab={true}
+                      href={repo.github}
+                      theme={theme}
+                    />
+                  )}
+                </div>
+                <h2 className="modal-h2">Compétences clés</h2>
+                {repo.keySkills && (
+                  <div className="modal-skills">
+                    {repo.keySkills.map((skillSentence, i) => {
+                      return <p key={repo.name + i}>{skillSentence}</p>;
+                    })}
+                  </div>
+                )}
+              </div>
             </div>
           </Modal>
 

@@ -1,6 +1,45 @@
 {
   "data": [
     {
+      "id": "R_kgDOG_vYHfez",
+      "name": "Lisa Tastevin - Psychomotricienne",
+      "createdAt": "2024-03-13T20:41:33Z",
+      "url": "https://lisa-tastevin-psychomotricienne.fr/",
+      "github": "https://github.com/AntoineDeveloppeur/Lisa-Tastevin---Psychomotricienne",
+      "description": "Conception du design sur-mesure, intégration soignée et optimisation SEO avancée.",
+      "descriptionInModal": "Une professionnelle de santé m’a confié la création de son site vitrine. Le défi ? Traduire en design le sentiment de douceur et de sécurité qu’elle souhaitait transmettre, tout en intégrant des animations dynamiques pour captiver l’attention des visiteurs. Objectif atteint selon vous ?",
+      "keySkills": [
+        "⚡ Design UX : Définition de la palette de couleurs, choix des illustrations et des typographies. Mise en place de surlignements progressifs pour guider l’attention des utilisateurs.",
+        "⚡ SEO : Intégration de données structurées, rédaction des contenus adaptés grâce à opportunité de placement trouvé avec Google Keyword Planner.",
+        "⚡ Optimisation Technique : Chargement d’images adaptées à la taille de l’écran pour améliorer la performance et l’expérience utilisateur."
+      ],
+      "screenshotsDesktopLink": [
+        "lisa_desktop_1_resized.webp"
+      ],
+      "screenshotsMobileLink": [
+        "lisa_mobile.webp"
+      ],
+      "isFork": false,
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Sass",
+          "iconifyClass": "logos-sass"
+        },
+        {
+          "name": "Figma",
+          "iconifyClass": "logos-figma"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOG_vYHA",
       "name": "Kasa - application web de location immobilière",
       "createdAt": "2022-03-13T20:41:33Z",
@@ -71,7 +110,7 @@
       "name": "Booki - réservation de logement en ligne",
       "createdAt": "",
       "url": "https://antoinedeveloppeur.github.io/Booki/",
-      "github": "https://antoinedeveloppeur.github.io/Booki/",
+      "github": "https://github.com/AntoineDeveloppeur/Booki",
       "description": "Intégrer la page d'accueil d'une agence de voyage.",
       "descriptionInModal": "Dans ce projet d'étude, j'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Le site n'est pas fonctionnel, il s'agissait de reproduire une maquette",
       "keySkills": [
