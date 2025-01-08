@@ -30,7 +30,7 @@ class Education extends Component {
               <div className="heading-text-div">
                 {/* eslint-disable-next-line*/}
                 <h1 className="heading-text" style={{ color: theme.text }}>
-                  Diplômes
+                  Diplôme
                 </h1>
                 {/* eslint-disable-next-line*/}
                 <h3
