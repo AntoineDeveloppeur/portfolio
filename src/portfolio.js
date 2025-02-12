@@ -366,9 +366,13 @@ const degrees = {
       alt_name: "IIITDM Kurnool",
       duration: "2024",
       descriptions: [
-        "⚡ J'ai étudié l'ensemble des domaines du développement web avec mise en application grâce à des projets inspirés de situations professionneles",
-        "⚡ J'ai été félicité pour mon travail à plusieurs reprises pendant mon parcours",
+        "1- Construire un site web responsive et dynamique s’adaptant à tout type d’écran grâce à l’intégration des éléments des maquettes graphiques. (Développement front-end avec HTML, CSS, JavaScript et React.)",
+        "2- Créer des API et des bases de données pour développer des sites complets et dynamiques, tout en assurant le bon fonctionnement côté serveur. (Développement back-end avec NodeJS, Express et MongoDB.)",
+        "3- Optimiser les performances et assurer la maintenance de sites web existants afin de garantir leur bon fonctionnement et une meilleure visibilité sur les moteurs de recherche (SEO)",
+        "4- Gérer un projet web de A à Z : de la planification à la présentation de la solution au client, en passant par la rédaction des spécifications techniques",
       ],
+      languages:
+        "Je maîtrise désormais les technologies et langages suivants : HTML, CSS, JavaScript, React, Git/GitHub, NodeJS, Express, MongoDB et les API REST.",
       website_link: "https://openclassrooms.com/fr/",
     },
     // {

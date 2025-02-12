@@ -47,6 +47,7 @@ class DegreeCard extends Component {
               </div>
             </div>
             <div className="body-content">
+              <h3>Contenu de la formation</h3>
               {degree.descriptions.map((sentence) => {
                 return (
                   <p className="content-list" style={{ color: theme.text }}>
@@ -54,6 +55,11 @@ class DegreeCard extends Component {
                   </p>
                 );
               })}
+              <h3>Compétences acquises</h3>
+              <p className="content-list" style={{ color: theme.text }}>
+                {degree.languages}
+              </p>
+
               {degree.website_link && (
                 <a
                   href={degree.website_link}
