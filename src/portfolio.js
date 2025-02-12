@@ -34,7 +34,7 @@ const socialMediaLinks = [
   /* Your Social Media Link */
   // (github: "https://github.com/AntoineDeveloppeur/"),
   // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // (gmail: "antoine.verove@gmail.com"),
+  // (gmail: "antoine.developpeur@gmail.com"),
   // gitlab: "https://gitlab.com/ashutoshhathidara98",
   // facebook: "https://www.facebook.com/laymanbrother.19/",
   // twitter: "https://twitter.com/ashutosh_1919",
@@ -90,30 +90,23 @@ const skills = {
       title: "Frontend : le site dont vous rêvez",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Je crée votre site web sur mesure en HTML/JavaScript ou React, adapté à vos besoins spécifiques",
+        "⚡ Je crée votre site web sur mesure en Next.js, React ou HTML/JavaScript, adapté à vos besoins spécifiques",
         "⚡ J'optimise votre référencement pour améliorer votre positionnement sur Google",
         "⚡ J’intègre des API externes pour enrichir et dynamiser votre site web",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Next.js",
+          fontAwesomeClassname: "logos:nextjs-icon",
           style: {
-            color: "#E34F26",
+            color: "#61DAFB",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "React",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
+            color: "#61DAFB",
           },
         },
         {
@@ -125,10 +118,24 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Sass",
+          fontAwesomeClassname: "simple-icons:sass",
           style: {
-            color: "#61DAFB",
+            color: "#CC6699",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
           },
         },
       ],
@@ -154,20 +161,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#339933",
-          },
-        },
-        {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
           },
         },
         // {
@@ -708,10 +701,10 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contactez moi",
+    title: "Comment me contacter?",
     profile_image_path: "animated_ashutosh.webp",
     description:
-      "Ecrivez une brève description de votre projet et votre numéro de téléphone à antoine.verove@gmail.com",
+      "Ecrivez une brève description de votre projet et votre numéro de téléphone à antoine.developpeur@gmail.com",
   },
   blogSection: {
     title: "Blogs",
