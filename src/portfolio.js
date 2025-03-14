@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Je transforme vos idées en applications web performantes et esthétiques",
   resumeLink:
-    "https://drive.google.com/file/d/1GZUnQ5aZLCjVZZg4WoafVWixha3h96zk/view?usp=drive_link",
+    "https://drive.google.com/file/d/1azDlXSHYJolIsOXRtqb97HiXd5q1VUDs/view?usp=sharing",
   portfolio_repository: "https://github.com/AntoineDeveloppeur/",
   githubProfile: "https://github.com/AntoineDeveloppeur/",
 };
@@ -46,12 +46,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
-  // {
-  //   name: "LinkedIn",
-  //   link: "https://www.linkedin.com/in/ashutosh1919/",
-  //   fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-  //   backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  // },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/antoine-verove/",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  },
   // {
   //   name: "YouTube",
   //   link: "https://youtube.com/c/DevSense19",
@@ -60,7 +60,7 @@ const socialMediaLinks = [
   // },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:antoine.verove@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },

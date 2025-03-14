@@ -4,14 +4,14 @@
       "id": "R_kgDOG_vYHkNz",
       "name": "Photographe - Hugo Randez",
       "createdAt": "2025-03-13T20:41:33Z",
-      "url": "https://photographe-hugo-rande.fr/",
+      "url": "https://photographe-hugo-randez.fr/",
       "github": "https://github.com/AntoineDeveloppeur/hugo-photographe.git",
-      "description": "Interface utilisateur sobre, animations sophistiquées, et mise en place d'une section blog complète.",
+      "description": "Interface utilisateur sobre, animations sophistiquées, mise en place d'une section blog complète.",
       "descriptionInModal": "Pour un client photographe spécialisé dans les reportages de voyage, j'ai conçu une interface utilisateur centrée sur la mise en valeur de son œuvre. Le design, volontairement sobre, permet une immersion totale dans ses photographies. Le challenge du projet a été d'optimiser les performances du site en laissant une total liberté au photographe des dimensions des photos.",
       "keySkills": [
-        "⚡ Design UX :Définition de la charte graphique (palette de couleurs, typographie), et intégration d'animations pour renforcer l'impact du portfolio.",
-        "⚡ Optimisation Web Vitals (LCP) : Implémentation du composant <Image> de Next.js avec l'attribut 'sizes' pour un chargement optimisé des images en fonction de la résolution de l'écran. Utilisation de l'attribut 'priority' pour prioriser le chargement des images visibles dans le viewport.",
-        "⚡ Optimisation Web Vitals (CLS) : Extraction des dimensions des photos depuis la base de données afin de supprimer les décalages visuels sur la page"
+        "⚡ Design UX : Définition de la charte graphique (palette de couleurs, typographie), et intégration d'animations pour renforcer l'impact du portfolio.",
+        "⚡ Optimisation Web Vitals (LCP) : Utilisation du composant natif <Image> de Next.js avec l'attribut 'sizes' pour un chargement optimisé des images en fonction de la résolution de l'écran. Utilisation de l'attribut 'priority' pour prioriser le chargement des images visibles dans le viewport.",
+        "⚡ Optimisation Web Vitals (CLS) : Extraction des dimensions des photos depuis la base de données afin de supprimer les décalages visuels sur la page."
       ],
       "screenshotsDesktopLink": [
         "hugo_desktop_1.png",
@@ -24,7 +24,7 @@
       "languages": [
         {
           "name": "Next.js",
-          "iconifyClass": "logos:nextjs"
+          "iconifyClass": "logos-nextjs-icon"
         },
         {
           "name": "Typescript",
