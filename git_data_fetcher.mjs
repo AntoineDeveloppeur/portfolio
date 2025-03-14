@@ -262,7 +262,8 @@ const languages_icons = {
   Node: "logos:nodejs",
   MongoDB: "logos-mongodb",
   Next: "logos-nextjs-dark",
-  Typescript: "typescript-icon-round"
+  Typescript: "typescript-icon-round",
+  Miro: "logos-miro"
 };
 
 fetch(baseUrl, {

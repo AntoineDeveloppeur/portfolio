@@ -41,28 +41,28 @@ const socialMediaLinks = [
   // instagram: "https://www.instagram.com/layman_brother/"
 
   {
-    name: "Github",
-    link: "https://github.com/AntoineDeveloppeur/",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
-  },
-  {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/antoine-verove/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "YouTube",
-  //   link: "https://youtube.com/c/DevSense19",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
   {
     name: "Gmail",
     link: "mailto:antoine.verove@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
+  {
+    name: "Miro",
+    link: "https://miro.com/app/board/uXjVKsysxYM=/?share_link_id=150844324655",
+    fontAwesomeIcon: "fa-m",
+    backgroundColor: "#ffd030",
+  },
+  {
+    name: "Github",
+    link: "https://github.com/AntoineDeveloppeur/",
+    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   // {
   //   name: "X-Twitter",
@@ -92,7 +92,7 @@ const skills = {
       skills: [
         "⚡ Je crée votre site web sur mesure en Next.js, React ou HTML/JavaScript, adapté à vos besoins spécifiques",
         "⚡ J'optimise votre référencement pour améliorer votre positionnement sur Google",
-        "⚡ J’intègre des API externes pour enrichir et dynamiser votre site web",
+        "⚡ J'incorpore des animations pour créer une expérience utilisateur immersive.",
       ],
       softwareSkills: [
         {
@@ -144,8 +144,8 @@ const skills = {
       title: "Backend",
       fileName: "FullStackImg",
       skills: [
+        "⚡ J’intègre des API externes pour enrichir et dynamiser votre site web",
         "⚡ Je conçois des solutions de stockage de données sécurisées, conformes aux normes les plus strictes",
-        "⚡ J’implémente des opérations CRUD robustes pour garantir la fiabilité de vos applications",
         "⚡ J’assure un stockage performant et évolutif sur des bases de données NoSQL",
       ],
       softwareSkills: [
