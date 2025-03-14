@@ -261,6 +261,8 @@ const languages_icons = {
   React: "logos-react",
   Node: "logos:nodejs",
   MongoDB: "logos-mongodb",
+  Next: "logos-nextjs-dark",
+  Typescript: "typescript-icon-round"
 };
 
 fetch(baseUrl, {
@@ -271,7 +273,6 @@ fetch(baseUrl, {
   .then((response) => response.text())
   .then((txt) => {
     const data = JSON.parse(txt);
-    // console.log(txt);
     const projects = data["data"]["user"]["pinnedItems"]["nodes"];
     var newProjects = { data: [] };
     for (var i = 0; i < projects.length; i++) {
