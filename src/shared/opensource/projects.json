@@ -10,15 +10,16 @@
       "descriptionInModal": "Pour un client photographe spécialisé dans les reportages de voyage, j'ai conçu une interface utilisateur centrée sur la mise en valeur de son œuvre. Le design, volontairement sobre, permet une immersion totale dans ses photographies. Le challenge du projet a été d'optimiser les performances du site en laissant une total liberté au photographe des dimensions des photos.",
       "keySkills": [
         "⚡ Design UX : Définition de la charte graphique (palette de couleurs, typographie), et intégration d'animations pour renforcer l'impact du portfolio.",
+        "⚡ API REST : ⚡ API REST : Mise en place d’une API REST sécurisée permettant au client d’ajouter, modifier ou supprimer en autonomie des projets et des photos (textes + images). Intégration d’un système d’authentification, gestion du formulaire, et traitement des images (compression, redimensionnement) avant enregistrement.",
         "⚡ Optimisation Web Vitals (LCP) : Utilisation du composant natif <Image> de Next.js avec l'attribut 'sizes' pour un chargement optimisé des images en fonction de la résolution de l'écran. Utilisation de l'attribut 'priority' pour prioriser le chargement des images visibles dans le viewport.",
         "⚡ Optimisation Web Vitals (CLS) : Extraction des dimensions des photos depuis la base de données afin de supprimer les décalages visuels sur la page."
       ],
       "screenshotsDesktopLink": [
-        "hugo_desktop_1.png",
-        "hugo_desktop_2.png"
+        "hugo_desktop_1.webp",
+        "hugo_desktop_2.webp"
       ],
       "screenshotsMobileLink": [
-        "hugo_mobile_1.png"
+        "hugo_mobile_1.webp"
       ],
       "isFork": false,
       "languages": [
@@ -33,6 +34,22 @@
         {
           "name": "Sass",
           "iconifyClass": "logos-sass"
+        },
+        {
+          "name": "Node",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb"
+        },
+        {
+          "name": "Gitlab",
+          "iconifyClass": "material-icon-theme:gitlab"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "material-icon-theme:docker"
         },
         {
           "name": "Figma",
