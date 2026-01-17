@@ -176,7 +176,7 @@ scp -r build/* root@46.202.129.223:/var/www/antoine-developpeur/build/
 
 ```
   chown root:www-data ./ -R
-  chmod ./ -R 755
+  chmod -R 755 .
 
 ```
 
