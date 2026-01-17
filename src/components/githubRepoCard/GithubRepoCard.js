@@ -79,28 +79,30 @@ export default function GithubRepoCard({ repo, theme }) {
               onClick={closeModal}
             ></i>
             <div className="modal-content">
-              <div className="modal-screenshots">
-                <div className="modal-screenshots-mobile">
-                  {repo.screenshotsMobileLink &&
-                    repo.screenshotsMobileLink.map((screenshot) => (
-                      <img
-                        key={screenshot}
-                        src={require(`../../assets/images/${screenshot}`)}
-                        alt={screenshot}
-                      />
-                    ))}
+              {(repo.screenshotsMobileLink || repo.screenshotsDesktopLink) && (
+                <div className="modal-screenshots">
+                  <div className="modal-screenshots-mobile">
+                    {repo.screenshotsMobileLink &&
+                      repo.screenshotsMobileLink.map((screenshot) => (
+                        <img
+                          key={screenshot}
+                          src={require(`../../assets/images/${screenshot}`)}
+                          alt={screenshot}
+                        />
+                      ))}
+                  </div>
+                  <div className="modal-screenshots-desktop">
+                    {repo.screenshotsDesktopLink &&
+                      repo.screenshotsDesktopLink.map((screenshot) => (
+                        <img
+                          key={screenshot}
+                          src={require(`../../assets/images/${screenshot}`)}
+                          alt={screenshot}
+                        />
+                      ))}
+                  </div>
                 </div>
-                <div className="modal-screenshots-desktop">
-                  {repo.screenshotsDesktopLink &&
-                    repo.screenshotsDesktopLink.map((screenshot) => (
-                      <img
-                        key={screenshot}
-                        src={require(`../../assets/images/${screenshot}`)}
-                        alt={screenshot}
-                      />
-                    ))}
-                </div>
-              </div>
+              )}
               <div className="modal-rightPanel">
                 <h1 className="modal-title">{repo.name}</h1>
                 <p className="modal-p">{repo.descriptionInModal}</p>

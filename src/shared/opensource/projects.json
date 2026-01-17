@@ -58,6 +58,43 @@
       ]
     },
     {
+      "id": "R_kgDOG_vYHkfds",
+      "name": "Repository Pattern API",
+      "createdAt": "2025-12-13T20:41:33Z",
+      "github": "https://github.com/AntoineDeveloppeur/Repository-pattern",
+      "description": "Une API REST démontrant l'implémentation du Repository Pattern avec TypeScript, PostgreSQL et une architecture hexagonale.",
+      "descriptionInModal": "Une API REST démontrant l'implémentation du Repository Pattern avec TypeScript, PostgreSQL et une architecture hexagonale.",
+      "keySkills": [
+        "⚡ Le Repository Pattern: abstraction de la couche de persistance pour une meilleure testabilité et maintenabilité",
+        "⚡ SQL natif: écriture de requêtes SQL brutes avec PostgreSQL (sans ORM)",
+        "⚡ Architecture hexagonale: séparation stricte entre domaine, application et infrastructure",
+        "⚡ TypeScript avancé : interfaces, injection de dépendances et typage fort"
+      ],
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Express",
+          "iconifyClass": "logos-express"
+        },
+        {
+          "name": "Node",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "Typescript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "Postgres",
+          "iconifyClass": "akar-icons:postgresql-fill"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "material-icon-theme:docker"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOG_vYHfez",
       "name": "Lisa Tastevin - Psychomotricienne",
       "createdAt": "2024-03-13T20:41:33Z",
