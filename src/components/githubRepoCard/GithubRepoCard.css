@@ -203,11 +203,6 @@ img {
   z-index: 1;
 }
 
-.modal-rightPanel {
-  flex: 1;
-  margin-left: 20px;
-}
-
 .modal-title {
   line-height: 2.3rem;
 }

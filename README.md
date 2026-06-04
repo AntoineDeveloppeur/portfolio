@@ -165,6 +165,7 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 
 # Deployment 📦
 
+- faire les modifications sur la branche 'PourVPS'
 - npm run build
 - copier le fichier builder sur le VPS :
 
