@@ -110,11 +110,33 @@ const skills = {
           },
         },
         {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            backgroundColor: "#ffffff",
+            color: "#3178c6",
+          },
+        },
+        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
             backgroundColor: "#000000",
             color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "Redux",
+          fontAwesomeClassname: "logos-redux",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Tailwind",
+          fontAwesomeClassname: "devicon:tailwindcss",
+          style: {
+            color: "#1572B6",
           },
         },
         {
@@ -146,9 +168,16 @@ const skills = {
       skills: [
         "⚡ Je conçois des API REST avec Express et node.js",
         "⚡ J’intègre des API externes pour enrichir et dynamiser votre site web",
-        "⚡ J’assure un stockage performant et évolutif sur des bases de données NoSQL",
+        "⚡ J’assure un stockage performant et évolutif sur des bases de données NoSQL et SQL",
       ],
       softwareSkills: [
+        {
+          skillName: "Express",
+          fontAwesomeClassname: "logos-express",
+          style: {
+            color: "#339933",
+          },
+        },
         {
           skillName: "NodeJS",
           fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
@@ -163,13 +192,13 @@ const skills = {
             color: "#339933",
           },
         },
-        // {
-        //   skillName: "Gatsby",
-        //   fontAwesomeClassname: "simple-icons:gatsby",
-        //   style: {
-        //     color: "#663399",
-        //   },
-        // },
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "logos-postgresql",
+          style: {
+            color: "#663399",
+          },
+        },
         // {
         //   skillName: "Flutter",
         //   fontAwesomeClassname: "simple-icons:flutter",
@@ -662,7 +691,7 @@ const experience = {
 const projectsHeader = {
   title: "Projets",
   description:
-    "Découvrez les projets d'études les plus marquants de mon parcours. Cliquez pour explorer les compétences que j'ai acquises.",
+    "Découvrez les projets les plus marquants de mon parcours. Cliquez pour explorer les compétences que j'ai acquises.",
   avatar_image_path: "projects_image.svg",
 };
 
