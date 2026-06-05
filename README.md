@@ -176,6 +176,7 @@ scp -r build/* root@46.202.129.223:/var/www/antoine-developpeur/build/
 - changer les droits des fichiers copiés
 
 ```
+  cd /var/www/antoine-developpeur
   chown root:www-data ./ -R
   chmod -R 755 .
 
